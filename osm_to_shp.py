@@ -1,8 +1,9 @@
 import os
 from qgis.core import QgsVectorLayer, QgsProject, QgsVectorFileWriter
 
+print("请确认你的文件输出路径是否更改(y/n)")
 # 定义输出文件夹
-output_folder = 'path/to/your/file'
+output_folder = '/Users/yangsai/Downloads/QGIS/数据/测试'
 
 # 确保输出文件夹存在
 if not os.path.isdir(output_folder):
